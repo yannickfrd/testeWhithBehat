@@ -1,10 +1,20 @@
 {
+    "name": "Yannick/Farade",
+    "description": "Juste un teste, pour mieux comprendre",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Yannick Farade",
+            "email": "email@gmail.com"
+        }
+    ],
     "type": "project",
     "license": "proprietary",
     "require": {
         "php": ">=7.2.5",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "behat/behat": "^3.8@dev",
         "composer/package-versions-deprecated": "^1.11",
         "doctrine/annotations": "^1.0",
         "doctrine/doctrine-bundle": "^2.1",
